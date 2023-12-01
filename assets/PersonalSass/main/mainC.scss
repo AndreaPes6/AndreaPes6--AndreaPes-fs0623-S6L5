@@ -1,0 +1,104 @@
+main {
+    #contenitoreSuperiore {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        #contenitoreInterno1 {
+            h1 {
+                margin: 0rem 3rem;
+            }
+            a {
+                width: auto;
+                padding: 0.5rem 1rem !important;
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.1);
+                }
+            }
+        }
+        #contenitoreInterno2 {
+            display: flex;
+            justify-content: end;
+            img {
+                width: 1.5rem;
+                margin: 0rem 1rem;
+                filter: brightness(0) invert(1);
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+
+    img:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+}    
+
+//main Pagina Profilo
+#mainEdit {
+    margin-bottom: 6rem;
+}
+
+ #contenitoreEditProfile1 {
+    h1 {
+        font-size: 4rem;
+    }
+    img {
+        width: 10rem;
+        margin-right:1.5rem;
+    }
+
+    input {
+        font-size: 1.2rem;
+        width: 20rem;
+        color: white;
+        background-color: #666666;
+        border-radius: 3px;
+        border: none;
+        padding: 0.4rem;
+    }
+
+    #lingua {
+        margin-top: 3.5rem;
+        opacity: 0.9;
+        z-index: 2;      
+    }
+
+    select {
+        width: 11rem;
+        color: white;
+        background-color: #666666;
+        padding: 0.1rem;
+        border-radius: 3px;
+        border: none;
+    }
+ }
+
+ #contenitoreEditProfile2 {
+    margin-top: 1rem;
+    margin-left: 11.5rem;
+    opacity: 0.7;
+
+    p {
+        font-weight: 600;
+    }
+
+    button {
+        font-weight: 600;
+        
+    }
+ }
+
+ #contenitoreEditProfile3 {
+    margin-top: 1rem;
+    margin-left: 11.5rem;
+    p {
+        margin-top: 0.2rem;
+        opacity: 0.7;
+    }
+    input {
+        padding: 0.7rem;
+    }
+ }

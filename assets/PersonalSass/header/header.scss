@@ -1,0 +1,62 @@
+header {
+    nav {
+        color: whitesmoke;
+        img {
+            width: 7rem;
+            margin: 0rem 3rem;
+            &:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+
+        li{
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+    #search {
+        width: 1.5rem;
+        margin: 0rem 1rem; 
+        filter: brightness(0) invert(1);
+    }
+
+    #search:hover {
+        cursor: pointer;
+        opacity: 0.7;
+        }
+      
+
+    #profilePic {
+        width: 1.5rem;
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+    #kids {
+        width: 2rem;
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+    #kids:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    #campanella {
+        width: 1.5rem;
+        margin: 0.3rem 0rem 0rem 1rem;
+        filter: brightness(0) invert(1);
+    }
+
+    #campanella:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+
+    #Avatar {
+        width: 2rem;
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+}

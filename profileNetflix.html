@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="content" content="pagina netflix base">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://127.0.0.1:5500/Netflix.html#"><img src="/assets/Img/netflix_logo.png" alt="logo"></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="d-flex justify-content-center container-fluid" id="mainEdit">
+        <div>
+            <div class="d-flex flex-column container-fluid" id="contenitoreEditProfile1">
+                <h1>Edit Profile</h1>
+                <hr>
+                <div class="d-flex">
+                    <img src="/assets/Img/avatar.png" alt="avatar">
+                    <div class="d-flex flex-column">
+                        <input type="text">
+                        <div id="lingua">
+                            <form action="#" class="d-flex flex-column">
+                                <label for="lang" class="pb-2">Language:</label>
+                                <select name="languages" id="lang">
+                                  <option value="javascript">Italiano</option>
+                                  <option value="php">inglese</option>
+                                  <option value="java">americano</option>
+                                  <option value="golang">francese</option>
+                                  <option value="python">russo</option>
+                                  <option value="c#">tedesco</option>
+                                  <option value="C++">rumeno</option>
+                                  <option value="erlang">greco</option>
+                                </select>
+                               
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id="contenitoreEditProfile2" class="container-fluid">
+                <p>Maturity Settings:</p>
+                <button class="btn btn-outline-secondary mb-3 ">ALL MATURITY RATINGS</button>
+                <p class="mb-3">Show titles of all maturity ratings for this profile</p>
+                <button type="button" class="btn btn-outline-secondary">EDIT</button>
+            </div>
+            <hr>
+
+            <div id="contenitoreEditProfile3" class="container-fluid">
+                <p>Autoplay Controls</p>
+                <div class="d-flex">
+                    <input class="form-check-input me-2 bg-secondary" type="checkbox" >
+                    <p>Autoplay next episode in a series on all devices</p>
+                </div>
+                <div class="d-flex">
+                    <input class="form-check-input me-2 bg-secondary" type="checkbox" >
+                    <p>Autoplay previews while browsing on all devices</p>
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="d-flex justify-content-evenly container-fluid mt-5">
+                <button type="button" class="btn btn-outline-secondary  btn-lg">SAVE</button>
+                <button type="button" class="btn btn-outline-secondary  btn-lg">CANCEL</button>
+                <button type="button" class="btn btn-outline-secondary  btn-lg">DELATE PROFILE</button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

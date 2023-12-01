@@ -1,0 +1,41 @@
+footer {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer #contenitoreSocial img {
+  width: 2.2rem;
+  margin: 3rem 1rem;
+  filter: brightness(0) invert(1);
+  opacity: 0.5;
+}
+footer #contenitoreSocial img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+footer #aiuti {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  list-style: none;
+}
+footer #aiuti li {
+  margin: 0rem 2rem;
+  padding: 0.5rem 3rem;
+}
+footer #aiuti li:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+footer #fondo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-left: 7rem;
+}
+footer #fondo a:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=footer.css.map */
